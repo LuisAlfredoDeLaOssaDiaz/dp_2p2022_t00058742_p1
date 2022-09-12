@@ -5,7 +5,4 @@ class Human extends Characters {
 
   void attack() => print('Attack...');
   void defense() => print('Defense...');
-  void levelup() {
-    print('***¡Level UP!***');
-  }
 }
