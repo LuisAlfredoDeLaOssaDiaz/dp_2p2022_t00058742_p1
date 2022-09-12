@@ -7,7 +7,3 @@ void Attack(Characters characters) {
 void Defense(Characters characters) {
   characters.defense();
 }
-
-void LevelUp(Characters characters) {
-  characters.levelup();
-}
