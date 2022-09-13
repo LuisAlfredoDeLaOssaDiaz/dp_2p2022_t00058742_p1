@@ -1,5 +1,6 @@
 import 'ie.dart';
 
+//Creamos la clase Ability extendiendo los atributos y metodos de cracterizacion
 class Ability extends Caracterizacion {
   String? name;
 

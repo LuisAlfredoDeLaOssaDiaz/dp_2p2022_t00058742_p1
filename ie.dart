@@ -6,3 +6,6 @@ export 'aliens.dart';
 export 'metodos.dart';
 export 'caracterizacion.dart';
 export 'poderes.dart';
+export 'ability.dart';
+export 'testpersonajes.dart';
+export 'main.dart';

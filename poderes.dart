@@ -1,6 +1,7 @@
 import 'caracterizacion.dart';
 import 'ie.dart';
 
+//Creamos la clase Poderes extendiendo los atributos y metodos de cracterizacion
 class Poderes extends Caracterizacion {
   String? name_power;
   String? atributo;
