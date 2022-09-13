@@ -22,5 +22,5 @@ class testPersonajes extends Human {
   void attack() => null;
 
   @override
-  void defense() => null;
+  void defense() => print("");
 }
