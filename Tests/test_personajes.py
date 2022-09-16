@@ -5,6 +5,7 @@ from Habilidades import Habilidades
 from Personalida import Personalidad
 from Poderes import Poderes
 from Armas import Armas 
+
 from Aliens import Aliens
 from Artificiales import Artificiales
 from Humanos import Humano
