@@ -2,7 +2,7 @@
 from ast import List
 from abc import  abstractmethod, ABC
 from Debilidades import Debilidades
-from Fichai import IFicha
+from Ficha import IFicha
 from enums import Estado
 from Caracterizacion  import Caracterizacion
 from Personalida import Personalidad
@@ -10,7 +10,7 @@ from Personalida import Personalidad
 
 
 
-class Personajes(IFicha, ABC):
+class Personaje(IFicha, ABC):
     __namep: str
     __life: float
     __energy: float

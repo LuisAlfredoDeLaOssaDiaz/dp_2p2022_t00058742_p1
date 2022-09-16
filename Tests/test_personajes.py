@@ -34,7 +34,7 @@ class TestPersonaje(unittest.TestCase):
     Flash = SuperHumanos("Barry Allen", 455, 358, 500,250,500, 100, Estado.VIVO,SuperHuman.VELOCISTA)
     XENO = Aliens("X", 300, 200, 250, 210, 100, 10, Estado.VIVO, TypeAlienigena.XENOMORFOS)
     Androide18 = Artificiales("18", 800, 15, 500, 70, 20, TypeArticial.mac_3, Laboratorio.LAB_X11)
-    Captain_America = Humano("Steve Rogers", 150, 180, 100, 20, 100, 100, Estado.VIVO, HumanStatus.COMANDANTE, Sexo.MAN)
+    Captain_America = Humano("Steve Rogers", 150, 180, 100, 20, 100, 100, Estado.VIVO, HumanStatus.SUPER_SOLDADO, Sexo.MAN)
     # Caracterizacion para Testear
     
     flY = Poderes("FLY", 500, 100, "Fly", Elemento.AIRE)
