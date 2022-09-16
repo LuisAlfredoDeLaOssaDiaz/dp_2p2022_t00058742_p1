@@ -12,5 +12,5 @@ class Aliens(Personaje):
         self.__RazaAlienigena = TypeAlien
 
     def getTypeAlien(self):
-        return self.__RazTypeenigena.name
+        return self.__TypeAlienigena.name
     
