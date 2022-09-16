@@ -9,7 +9,7 @@ class Aliens(Personaje):
         
         super().__init__(name, life, energy, strong, velocity, armor, estado,caracterizacion, enemigo, liga)
         
-        self.__RazaAlienigena = TypeAlien
+        self.__TypeAlienigena = TypeAlien
 
     def getTypeAlien(self):
         return self.__TypeAlienigena.name
