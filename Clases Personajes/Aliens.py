@@ -1,5 +1,5 @@
 from Personajes import Personaje
-from Fichai import IFicha
+from Ficha import IFicha
 from enums import TypeAlienigena
 
 class Aliens(Personaje):
