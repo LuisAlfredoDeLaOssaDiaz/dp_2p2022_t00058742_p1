@@ -1,6 +1,6 @@
 from Personajes import Personaje
 from Ficha import IFicha
-from enums import TypeAlienigena
+from enumerations import TypeAlienigena
 
 class Aliens(Personaje):
     __TypeAlienigena: TypeAlienigena
