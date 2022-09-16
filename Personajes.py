@@ -81,7 +81,7 @@ class Personaje(IFicha, ABC):
             if i == existencia:
                 return True
             else:
-                False
+                return False
 
 
     def especialAttack(self, personaje, especialAttack):
