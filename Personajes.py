@@ -58,9 +58,9 @@ class Personaje(IFicha, ABC):
     def setEstado(self): #Se verifica y setea el estado
         if self.__life <= 0:
             self.__life = 0
-            self.__estado = Estado.MUERTO
+            self._estado = Estado.MUERTO
         else: 
-            self.__estado = Estado.VIVO
+            self._estado = Estado.VIVO
 
     def getlife(self):
         return self.__life
