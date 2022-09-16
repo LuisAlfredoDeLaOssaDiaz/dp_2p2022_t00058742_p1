@@ -11,29 +11,29 @@ from Personalida import Personalidad
 
 
 class Personaje(IFicha, ABC):
-    __namep: str
+    _name: str
     __life: float
-    __energy: float
-    __strong: float
-    __velocity: float
-    __armor: float
+    _energy: float
+    _strong: float
+    _velocity: float
+    _armor: float
     __liga: str
     __enemigo: None
     __caracterizacion: List
-    __estado: Estado
+    _estado: Estado
 
     #Realizamos un constructor donde se inicialice a los personajes con sus atributos.
     def __init__(self,  name, life, energy, strong, velocity, armor, estado, caracterizacion=[], enemigo=None, liga=None):
         
-        self.__namep = name
+        self._name = name
         self.__life = life
-        self.__energy = energy
-        self.__strong = strong
-        self.__velocity = velocity
-        self.__armor = armor 
+        self._energy = energy
+        self._strong = strong
+        self._velocity = velocity
+        self._armor = armor 
         self.__enemigo = enemigo
         self.__liga = liga
-        self.__estado = estado
+        self._estado = estado
         self.__caracterizacion = caracterizacion
         
         
@@ -68,7 +68,7 @@ class Personaje(IFicha, ABC):
         
     def attack(self, personaje):
         if personaje.__estado.name == "VIVO":
-            personaje.getdanio(self.__strong)
+            personaje.getdanio(self._strong)
             print("Ataque basico ha sido exitoso")
         else: 
             print("Personaje no esta vivo. . . .")
