@@ -88,8 +88,8 @@ class Personaje(IFicha, ABC):
         if personaje.__estado.name == "VIVO":
 
             for i in super().__caracterizacion:
-                if i.getName() == especialAttack:
-                    if isinstance(i) or isinstance(i, Debilidades):
+                    if i.getName() != especialAttack:
+                    
                         print("Don't attack")
                     else:
                         personaje.getdanio(i.getDamage())
