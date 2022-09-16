@@ -23,7 +23,7 @@ class Personaje(IFicha, ABC):
     _estado: Estado
 
     #Realizamos un constructor donde se inicialice a los personajes con sus atributos.
-    def __init__(self,  name, life, energy, strong, velocity, armor, estado, caracterizacion=[], enemigo=None, liga=None):
+    def __init__(self,  name, life, energy, strong, velocity, armor, estado, enemigo=None, liga=None):
         
         self._name = name
         self.__life = life
@@ -34,7 +34,7 @@ class Personaje(IFicha, ABC):
         self.__enemigo = enemigo
         self.__liga = liga
         self._estado = estado
-        self.__caracterizacion = caracterizacion
+        
         
         
     def anhadir(self, caracterizacion: Caracterizacion):
