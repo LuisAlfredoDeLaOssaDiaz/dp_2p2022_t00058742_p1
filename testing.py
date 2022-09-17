@@ -2,15 +2,15 @@ import unittest
 from enumerations import *
 import enumerations
 #from Debilidades import Debilidades
-from Habilidades import Habilidades
-from Personalida import Personalidad
-from Poderes import Poderes
-from Armas import Armas 
+from habilidades import Habilidades
+from personalidad import Personalidad
+from poderes import Poderes
+from armas import Armas 
 
-from Aliens import Aliens
-from Artificiales import Artificiales
-from Humanos import Humano
-from SuperHumanos import SuperHumanos
+from aliens import Aliens
+from artificiales import Artificiales
+from humanos import Humano
+from superhumanos import SuperHumanos
 
 class TestPersonaje(unittest.TestCase):
     # Hacer uso del test para verificar a funcionabilidad de metodo add

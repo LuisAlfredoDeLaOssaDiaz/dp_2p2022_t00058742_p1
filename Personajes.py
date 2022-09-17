@@ -1,11 +1,11 @@
 # Importaciones 
 from ast import List
 from abc import  abstractmethod, ABC
-from Debilidades import Debilidades
+from debilidades import Debilidades
 from Ficha import IFicha
 from enumerations import Estado
 from Caracterizacion  import Caracterizacion
-from Personalida import Personalidad
+from personalidad import Personalidad
 
 
 

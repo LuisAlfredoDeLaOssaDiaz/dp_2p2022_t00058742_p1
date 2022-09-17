@@ -1,5 +1,5 @@
 from Caracterizacion  import Caracterizacion
-from enums import Elemento
+from enumerations import Elemento
 
 
 class Poderes(Caracterizacion):
