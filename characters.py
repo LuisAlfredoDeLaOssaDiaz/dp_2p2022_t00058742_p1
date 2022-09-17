@@ -72,12 +72,12 @@ class Personaje(IFicha, ABC):
     def ataqueEspecial(self, personaje, ataqueEspecial):
         if personaje._estado.name == "VIVO":
 
-            for ataque in super().__caracterizacion:
-                if ataque.getName() == ataqueEspecial:
-                    if isinstance(ataque, Personalidad) or isinstance(ataque, Debilidades):
+            for i in super().__caracterizacion:
+                if i.getName() == ataqueEspecial:
+                    if isinstance(i, Personalidad) or isinstance(i, Debilidades):
                         print("no se puede atacar con una Personalidad")
                     else:
-                        personaje.recibirDaño(ataque.getDamage())
+                        personaje.recibirDaño(i.getDamage())
                         print("Has atacado con exito. . .")
         else: 
             print("Personaje muerto")
@@ -88,4 +88,4 @@ class Personaje(IFicha, ABC):
             if i == existencia:
                 return True
             else:
-                False
+                return False

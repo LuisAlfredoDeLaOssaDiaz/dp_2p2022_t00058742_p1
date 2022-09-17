@@ -1,5 +1,5 @@
 from characterization  import Caracterizacion
-#Clase de personalidad 
+
 class Personalidad(Caracterizacion):
     __description: str
     def __init__(self, nombre, description):

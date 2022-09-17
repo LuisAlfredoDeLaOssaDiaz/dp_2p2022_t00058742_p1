@@ -8,13 +8,7 @@ class Poderes(Caracterizacion):
     __elemento: Elemento
     __description: str
     def __init__(self, name, damage, cost, description, elemento):
-        """CREAR PODERES 
-            name: nombre del poder 
-            damage: danio que inflinge
-            cost: costo de mana
-            description: descripcion del poder
-            elemento: elemento del poder
-            """
+        
         super().__init__(name)
         self.__description = description
         self.__damage = damage
