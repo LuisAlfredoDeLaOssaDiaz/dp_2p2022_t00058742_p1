@@ -1,5 +1,5 @@
 from Personajes import Personaje
-from enums import SuperHuman
+from enumerations import SuperHuman
 
 class SuperHumanos(Personaje):
     __superHuman: SuperHuman

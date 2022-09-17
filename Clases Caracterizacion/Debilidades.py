@@ -1,5 +1,5 @@
 from Caracterizacion  import Caracterizacion
-from enums import Elemento
+from enumerations import Elemento
 #Clase de debilidades con su constructor y metodos
 class Debilidades(Caracterizacion):
     __efecto: float

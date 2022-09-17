@@ -1,5 +1,5 @@
 import unittest
-import enums
+import enumerations
 
 from Personalida import Personalidad
 from Armas import Armas
@@ -24,7 +24,7 @@ class TestArmas(unittest.TestCase):
         self.assertEqual(result2, 50)
 
     # TEST PARA PODERES
-    lanza_llamas = Poderes("LanzaLlamas", 500, 20, "Lanzar fuego de las manos", enums.Elemento.FUEGO)
+    lanza_llamas = Poderes("LanzaLlamas", 500, 20, "Lanzar fuego de las manos", enumerations.Elemento.FUEGO)
 
     def test_poder_nombre(self):
         self.assertAlmostEqual(self.lanza_llamas.getName(), "LanzaLlamas")
@@ -34,7 +34,7 @@ class TestArmas(unittest.TestCase):
         self.assertEqual(self.lanza_llamas.getElemento(), "FUEGO")
 
     # TEST PARA DEBILIDADES
-    debilidad_veneno = Debilidades("Venenosis", enums.Elemento.VENENO, -0.5)
+    debilidad_veneno = Debilidades("Venenosis", enumerations.Elemento.VENENO, -0.5)
 
     def test_debilidad_efecto(self):
         self.assertEqual(self.debilidad_veneno.getEfecto(), -0.5)

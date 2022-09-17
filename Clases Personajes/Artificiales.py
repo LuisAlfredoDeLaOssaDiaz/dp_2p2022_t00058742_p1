@@ -1,6 +1,6 @@
 
 from Personajes import Personaje
-from enums import Laboratorio, TypeArticial
+from enumerations import Laboratorio, TypeArticial
 
 class Artificiales(Personaje):
     

@@ -1,5 +1,5 @@
 from Personajes import Personaje
-from enums import HumanStatus, Sexo
+from enumerations import HumanStatus, Sexo
 
 class Humano(Personaje):
     __HumanStatus: HumanStatus

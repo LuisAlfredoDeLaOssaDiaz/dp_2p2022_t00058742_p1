@@ -1,5 +1,5 @@
 import unittest
-from enums import *
+from enumerations import *
 from Debilidades import Debilidades
 from Habilidades import Habilidades
 from Personalida import Personalidad
