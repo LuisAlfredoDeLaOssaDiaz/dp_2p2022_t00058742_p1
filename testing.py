@@ -1,7 +1,7 @@
 import unittest
 from enumerations import *
 import enumerations
-from Debilidades import Debilidades
+#from Debilidades import Debilidades
 from Habilidades import Habilidades
 from Personalida import Personalidad
 from Poderes import Poderes
@@ -39,7 +39,7 @@ class TestPersonaje(unittest.TestCase):
     # Caracterizacion para Testear
     
     flY = Poderes("FLY", 500, 100, "Fly", Elemento.AIRE)
-    venenophobia = Debilidades("venenophiba", Elemento.VENENO, -0.4)
+    #venenophobia = Debilidades("venenophiba", Elemento.VENENO, -0.4)
     AK47 = Armas("AK47", 50,100,30,30)
     Sniper= Armas("Sniper", 70,100,30,30)
 
@@ -76,12 +76,9 @@ class TestArmas(unittest.TestCase):
         self.assertEqual(self.lanza_llamas.getElemento(), "FUEGO")
 
     # TEST PARA DEBILIDADES
-    debilidad_veneno = Debilidades("Venenosis", enumerations.Elemento.VENENO, -0.5)
+   # debilidad_veneno = Debilidades("Venenosis", enumerations.Elemento.VENENO, -0.5)
 
-    def test_debilidad_efecto(self):
-        self.assertEqual(self.debilidad_veneno.getEfecto(), -0.5)
-    def test_debilidad_elemento(self):
-        self.assertEqual(self.debilidad_veneno.getElemento(), "VENENO")
+    
     # TEST PARA HABILIDADES
     lanzar_personaje = Habilidades("Lanzamiento", 500, 50)
 
