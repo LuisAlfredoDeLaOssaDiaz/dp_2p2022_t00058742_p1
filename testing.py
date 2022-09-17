@@ -1,6 +1,3 @@
-from sonarqube import SonarCloudClient
-h = SonarCloudClient(sonarcloud_url="https://sonarcloud.io", token='4389f1511fe083461b564d9a0236797aaa78cf57')
-
 import unittest
 from enumerations import *
 import enumerations
