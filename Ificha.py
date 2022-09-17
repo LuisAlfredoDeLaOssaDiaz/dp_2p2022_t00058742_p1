@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from Caracterizacion import Caracterizacion
+from characterization import Caracterizacion
 
 
 

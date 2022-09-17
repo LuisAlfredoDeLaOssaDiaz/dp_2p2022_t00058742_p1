@@ -1,4 +1,4 @@
-from Caracterizacion import Caracterizacion
+from characterization import Caracterizacion
 
 
 class Armas(Caracterizacion):

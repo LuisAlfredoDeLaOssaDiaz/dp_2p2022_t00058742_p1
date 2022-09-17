@@ -1,4 +1,4 @@
-from Caracterizacion  import Caracterizacion
+from characterization  import Caracterizacion
 #Clase de habilidades con su constructor y metodos
 class Habilidades(Caracterizacion):
     __danio: float
